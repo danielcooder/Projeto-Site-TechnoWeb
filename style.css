@@ -32,6 +32,7 @@ body {
 
 .search-container {
     display: flex;
+    position: relative;
     justify-content: flex-start;
     align-items: center;
     margin: 25px;
@@ -58,8 +59,7 @@ body {
     background-color: #9c9c9c;
     cursor: pointer;
     outline: none;
-    width: 20%;
-    /* Alterado para ocupar 18% da largura */
+    width: auto;
 }
 
 #search-button:hover {
@@ -67,7 +67,7 @@ body {
 }
 
 .page {
-    max-width: clamp(33rem, 30rem + 60vw, 117rem);
+    max-width: auto;
     padding: 0 2rem;
     margin: 0 auto;
 }
@@ -118,7 +118,6 @@ header {
     font-size: 30px;
     text-align: center;
     animation: topdown 700ms;
-    font-family: var(--ff-texting);
     color: rgba(6, 6, 6, 0.929);
     text-transform: uppercase;
     line-height: 3.2rem;
@@ -144,10 +143,14 @@ h1 {
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
     color: rgb(161, 161, 161);
     text-shadow: 4px 4px 6px rgb(0, 0, 0);
+    max-width: 100%;
 }
+
 
 span,
 a {
@@ -161,6 +164,7 @@ main {
     gap: 3.2rem;
     animation: downtop 700ms;
     grid-template-columns: 1fr 1fr;
+
 }
 
 footer {
@@ -186,6 +190,7 @@ footer {
     filter: saturate(0.8);
     border-radius: 6px;
     transition: transform 200ms;
+
 }
 
 .card h2 {
@@ -212,6 +217,14 @@ footer {
     display: inline-flex;
     align-items: center;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .card {
+        max-width: 100%;
+    }
+}
+
 
 .logo:hover {
     transform: scale(1.3);
