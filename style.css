@@ -23,11 +23,47 @@
 
 body {
     font-family: var(--ff-texting);
-    background-color: rgb(204, 204, 204);
+    background-color: #dadada;
     color: var(--fc-primary);
     font-size: var(--fs-body);
     margin: 0;
 
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px;
+}
+
+#search-input {
+    font-family: var(--ff-texting);
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    background-color: #e7e7e7;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 100%;
+}
+
+#search-button {
+    font-family: var(--ff-texting);
+    padding: 10px 25px;
+    font-size: 1.5rem;
+    border: 2px solid #9c9c9c;
+    border-color: #000;
+    border-radius: 0 5px 5px 0;
+    background-color: #9c9c9c;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    /* Alterado para ocupar 18% da largura */
+}
+
+#search-button:hover {
+    background-color: #c5c5c5;
 }
 
 .page {
@@ -76,24 +112,12 @@ img {
     height: auto;
 }
 
-
 header {
     margin-top: 10rem 0 8rem;
     font-family: var(--ff-heading);
     font-size: 30px;
     text-align: center;
     animation: topdown 700ms;
-}
-
-
-p {
-    font-family: var(--ff-text-p);
-    font-weight: 400;
-    color: rgb(0, 0, 0);
-
-}
-
-header {
     font-family: var(--ff-texting);
     color: rgba(6, 6, 6, 0.929);
     text-transform: uppercase;
@@ -103,20 +127,34 @@ header {
     margin-bottom: 1.7rem;
 }
 
+p {
+    font-family: var(--ff-text-p);
+    font-weight: 400;
+    color: black;
+}
+
 
 h1 {
     font-weight: 800;
-    font-size: var(--fs-healding);
+    font-size: 22px;
     line-height: 4.8rem;
+    color: #000;
 }
 
 
 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: rgb(201, 201, 201);
+    color: rgb(161, 161, 161);
+    text-shadow: 4px 4px 6px rgb(0, 0, 0);
 }
 
+span,
+a {
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+}
 
 main {
     display: grid;
@@ -128,7 +166,7 @@ main {
 footer {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    color: rgb(31, 31, 31);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -154,13 +192,11 @@ footer {
     position: absolute;
     bottom: 5.2rem;
     left: 2.8rem;
-
     font-size: var(--fs-healding-sm);
     font-weight: 800;
     display: flex;
     flex-direction: column;
     gap: 2.8rem;
-
 }
 
 .card h2 span {
@@ -168,7 +204,8 @@ footer {
     background-color: var(--fc-primary);
     font-size: var(--fs-body);
     font-weight: 400;
-    color: var(--fc-secondary-dark);
+    color: black;
+    text-shadow: 1px 1px 3px rgba(67, 67, 67, 0.577);
     padding: 0 1.6rem;
     width: fit-content;
     height: 3.8rem;
@@ -176,6 +213,15 @@ footer {
     align-items: center;
 }
 
+.logo:hover {
+    transform: scale(1.3);
+}
+
+.logo {
+    width: fit-content;
+    height: 3rem;
+    display: inline-flex;
+}
 
 @keyframes topdown {
 
