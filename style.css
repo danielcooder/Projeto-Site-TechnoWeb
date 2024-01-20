@@ -23,15 +23,36 @@
 
 body {
     font-family: var(--ff-texting);
-
     background-color: rgb(186, 186, 186);
-
     color: var(--fc-primary);
-
     font-size: var(--fs-body);
 
+}
+
+
+.logo-techweb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    margin: auto auto 0;
+    border-radius: 100%;
+    overflow: hidden;
 
 }
+
+
+.logo-techweb img {
+    max-width: 210%;
+    max-height: 300%;
+    width: 400px;
+    height: 400px;
+
+}
+
+
+
 
 .search-container {
     display: flex;
@@ -125,7 +146,7 @@ a {
 
 footer {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     color: rgb(0, 0, 0);
     text-align: center;
 }
