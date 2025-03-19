@@ -30,10 +30,27 @@ Explore o site e descubra mais sobre nossos serviços:
 3. **💻 Web Site**: Criação de websites personalizados e funcionais.
 4. **🚁 Recording**: Gravações aéreas com drones para diversos fins.
 
-## **Video demonstrativo usabilidade mobile.**<br>
-![Video](https://github.com/danielcooder/Projeto-Site-TechnoWeb/blob/main/img/usabilidadeMobile.gif)
-
 <br>
+
+<div align="center">
+
+## 📱 **Video demonstrativo usabilidade mobile.**  
+<br>  
+<img src="https://github.com/danielcooder/Projeto-Site-TechnoWeb/blob/main/img/usabilidadeMobile.gif" width="300">  
+<br>
+
+</div>
+<br> <br>
+
+<div align="center">
+
+## 💻 **Video demonstrativo usabilidade para computador.**  
+<br>  
+<img src="https://github.com/danielcooder/Projeto-Site-TechnoWeb/blob/main/img/usabilidadePC.gif" width="900">  
+<br>
+
+</div>
+<br> <br>
 
 ## 🔗 Link do Projeto
 
