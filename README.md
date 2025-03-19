@@ -56,8 +56,6 @@ Explore o site e descubra mais sobre nossos serviços:
 
 Acesse o projeto online através do seguinte link: [TechnoWeb Solutions](https://danielcooder.github.io/Projeto-Site-TechnoWeb/)
 
-## 🤝 Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir **issues** e **pull requests** para melhorias e correções.
 
 
