@@ -44,7 +44,7 @@ Explore o site e descubra mais sobre nossos serviços:
 
 <div align="center">
 
-## 💻 **Video demonstrativo usabilidade para computador.**  
+## 💻 **Video demonstrativo usabilidade para desktop.**  
 <br>  
 <img src="https://github.com/danielcooder/Projeto-Site-TechnoWeb/blob/main/img/usabilidadePC.gif" width="900">  
 <br>
